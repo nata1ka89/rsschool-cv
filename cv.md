@@ -10,18 +10,19 @@
 I have professional experience in construction and economics, I am a very responsible person, eager to learn and develop in a new field. I am highly motivated to learn JavaScript and gain new skills and experience.
 ************
 ## Skills
--JS
--HTML и CSS
--Git
--Photoshop
--VSCode
+- JS
+- HTML и CSS
+- Git
+- Photoshop
+- VSCode
 ************
 ## Code
 ```for (let a = 2; a <= 14; a++) {
   if (a % 2 == 0) {
     alert( a );
   }
-}```
+}
+```
 ************
 ## Education
 Belarusian National Technical University
