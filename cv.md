@@ -17,7 +17,8 @@ I have professional experience in construction and economics, I am a very respon
 - VSCode
 ************
 ## Code
-```for (let a = 2; a <= 14; a++) {
+```
+for (let a = 2; a <= 14; a++) {
   if (a % 2 == 0) {
     alert( a );
   }
