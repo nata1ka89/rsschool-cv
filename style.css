@@ -1,4 +1,4 @@
-.body {
+body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -32,6 +32,7 @@
 .container {
     max-width: 1440px;
     margin: 0 auto;
+
 }
 
 .nav-list {
@@ -41,7 +42,7 @@
     list-style: none;
 }
 
-.html {
+html {
     scroll-behavior: smooth;
 }
 
@@ -64,6 +65,7 @@
 
 .section {
     width: 50%;
+    line-height: 30px;
 }
 
 .section-profile {
