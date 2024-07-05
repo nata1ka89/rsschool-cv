@@ -1,0 +1,23 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    border: 1px solid rgb(94, 144, 219);
+}
+
+.main {
+    border: 1px solid black;
+}
+
+.footer {
+    border: 1px solid black;
+}
