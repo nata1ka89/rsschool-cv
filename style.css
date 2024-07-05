@@ -53,6 +53,10 @@
     transition: color 0.5s;
 }
 
+.nav-link:hover {
+    color: white;
+}
+
 .main-container {
     display: flex;
     flex-wrap: wrap;
@@ -90,4 +94,15 @@
     color: rgb(94, 144, 219);
     text-decoration: none;
     transition: color 0.5s;
+}
+
+.project-link:hover {
+    color: black;
+}
+
+.image {
+    width: 80px;
+    height: 80px;
+    background: url("https://avatars.githubusercontent.com/u/11501370?s=280&v=4");
+    background-size: cover;
 }
