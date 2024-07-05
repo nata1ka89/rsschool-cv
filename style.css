@@ -1,4 +1,7 @@
 .body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -12,14 +15,18 @@
 
 .header {
     border: 1px solid rgb(94, 144, 219);
+    background-color: rgb(94, 144, 219);
+    font-size: 1.3em;
 }
 
 .main {
     border: 1px solid black;
+    font-size: 1.3em;
 }
 
 .footer {
     border: 1px solid black;
+    text-align: center;
 }
 
 .container {
@@ -55,9 +62,18 @@
     width: 50%;
 }
 
+.section-profile {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    width: 100%;
+    text-align: left;
+}
+
 @media (max-width: 768px) {
     .section {
         width: 100%;
+        letter-spacing: 1px;
     }
 }
 
@@ -68,4 +84,10 @@
     background-size: cover;
     margin: 20px;
     border-radius: 50%
+}
+
+.project-link {
+    color: rgb(94, 144, 219);
+    text-decoration: none;
+    transition: color 0.5s;
 }
