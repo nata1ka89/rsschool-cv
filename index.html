@@ -1,11 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <title>cv</title>
 </head>
+
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#aboutme" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section-profile" id="profile">
+                <img class="photo" src="image.jpg" alt="my photo">
+                <h1>Natallia Katsuba</h1>
+            </section>
+            <section class="section" id="contacts">
+                <h2>Contacts</h2>
+                <ul class="list">
+                    <li>Location: Minsk, Belarus</li>
+                    <li>Phone: +375 29 565-66-22</li>
+                    <li>Email: nata1ka.yurevich@gmail.com</li>
+                    <li>GitHub: [github.com/nata1ka89](https://github.com/nata1ka89)</li>
+                </ul>
+            </section>
+            <section class="section" id="aboutme">
+                <h2>About Me</h2>
+                <p>I have professional experience in construction and economics, I am a very responsible person, eager
+                    to learn and develop in a new field. I am highly motivated to learn JavaScript and gain new skills
+                    and experience.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2>Skills</h2>
+                <ul class="list">
+                    <li>JS</li>
+                    <li>HTML и CSS</li>
+                    <li>Git</li>
+                    <li>Photoshop</li>
+                    <li>VSCode</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2>Code</h2>
+                <pre>
+    for (let a = 2; a &lt;= 14; a++) {
+        if (a % 2 == 0) {
+        alert( a );
+        }
+    }
+    </pre>
+            </section>
+            <section class="section" id="courses">
+                <h2>Courses</h2>
+                <ul class="list">
+                    <li>Интерактивный курс по CSS https://code-basics.com</li>
+                    <li>Интерактивный курс по HTML https://code-basics.com</li>
+                </ul>
+            </section>
+            <section class="section" id="project">
+                <h2>Project</h2>
+                <ul class="list">
+                    <li><a href="https://github.com/nata1ka89/rsschool-cv/tree/gh-pages" class="project-link">CV#1.
+                            Markdown & Git</a></li>
+                    <li><a href="https://github.com/nata1ka89/rsschool-cv/tree/rsschool-cv-html"
+                            class="project-link">CV#2. HTML, CSS & Git Basics</a></li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2>Education</h2>
+                <p>Belarusian National Technical University</p>
+            </section>
+            <section class="section" id="english">
+                <h2>English</h2>
+                <p>A1+ Elementary</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <ul class="nav-list">
+                <li>© 2024</li>
+                <li><a href="https://github.com/nata1ka89" class="github-link">nata1ka89</a></li>
+            </ul>
+            <a href="https://rs.school/courses/javascript-preschool-ru">
+                <img class="image"
+                    src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/61cea2636c5a5f660b1070fa262bbd4acc92ec66/tasks/cv/rs-school-logo.svg"
+                    alt="rollingScopesImage"></a>
+        </div>
+    </footer>
 </body>
+
 </html>
