@@ -42,6 +42,7 @@ body {
     align-items: center;
     list-style: none;
     padding-inline-start: 0px;
+    gap: 2vw;
 }
 
 html {
