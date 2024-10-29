@@ -1,4 +1,4 @@
-# Natallia Katsyba
+# Natallia Katsuba
 
 *****
 
@@ -17,7 +17,7 @@ I have professional experience in construction and economics, I am a very respon
 
 ## Skills
 - JS
-- HTML и CSS
+- HTML and CSS
 - Git
 - Photoshop
 - VSCode
