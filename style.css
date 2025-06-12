@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(94, 144, 219);
+  font-size: 1.1em;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  font-size: 1.1em;
+  padding: 20px;
+  background-color: rgba(246, 249, 253, 0.671);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(191, 195, 197);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-inline-start: 0px;
+  gap: 2vw;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+  line-height: 30px;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  width: 100%;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+    letter-spacing: 1px;
+  }
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.project-link,
+.contact-link {
+  color: rgb(94, 144, 219);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.project-link:hover,
+.contact-link:hover {
+  color: black;
+}
+
+.image {
+  width: 100px;
+  height: 70px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.github-link {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.github-link:hover {
+  color: white;
+}
+
+.list-skills li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.logo {
+  width: 30px;
+}
